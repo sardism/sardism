@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Marios Sardis
 
 I'm a protein biochemist/cell biologist and assay development expert with over a decade of experience in cell and molecular biology, protein engineering, and mechanistic studies.
-I specialize in building R&D platforms from the ground up—translating complex biological questions into actionable experiments that drive innovation.
+I specialize in building R&D platforms from the ground up, translating complex biological questions into actionable experiments that drive innovation.
 
 At the bench, I work extensively with mammalian and bacterial cell cultures, protein expression in mammalian and bacterial systems, protein purification, and developing biochemical 
 and biophysical assays to study protein-ligand interactions and mechanisms of action. I’ve also contributed to patents and publications in therapeutic innovation and microbiological quality control.
