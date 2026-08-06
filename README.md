@@ -1,41 +1,63 @@
 # 👋 Hi, I'm Marios Sardis
 
-I'm a protein biochemist/cell biologist and assay development expert with over a decade of experience in cell and molecular biology, protein engineering, and mechanistic studies.
-I specialize in building R&D platforms from the ground up, translating complex biological questions into actionable experiments that drive innovation.
+Protein biochemist and molecular biologist with 15+ years of experience in recombinant protein engineering, expression, purification, and biophysical characterization across bacterial and mammalian systems (~200 constructs engineered, expressed, and characterized). I have built three research laboratories from the ground up covering protein biochemistry and biophysics, BSL-2 mammalian cell biology, and BSL-2 microbiology. I enjoy the full arc of research, from strategic organisation and infrastructure build-out to getting into the weeds of data capture and analysis.
 
-At the bench, I work extensively with mammalian and bacterial cell cultures, protein expression in mammalian and bacterial systems, protein purification, and developing biochemical 
-and biophysical assays to study protein-ligand interactions and mechanisms of action. I’ve also contributed to patents and publications in therapeutic innovation and microbiological quality control.
+I have extensive hands-on experience with ÄKTA-based multi-modal chromatography, orthogonal biophysical characterization (SEC-MALS, DLS, DSF, ITC, BLI, CD spectroscopy, limited proteolysis, peptide mapping), and protein-protein and protein-small molecule interaction studies. I have contributed to 4 international patents and multiple peer-reviewed publications in microbiology and cell biology.
 
-Beyond biology, I also develop tools for color analysis and shade classification of historical collectibles, combining scientific rigor with cultural preservation.
+I am currently expanding into computational tools, which I think have the potential to transform how individual researchers approach problems that previously required large teams and significant infrastructure.
 
+## 💻 Computational & Programming Work
 
-## 💻 Why I'm Learning to Code
+I develop Python-based tools and pipelines to extend and accelerate wet-lab research:
 
-### 🔬 Protein Biochemistry & Structure Prediction
-I'm expanding into computational biology to:
-Automate data analysis and screening workflows
-Model protein structures and interactions using platforms like HADDOCK, iTASSER, and OpenFold
-Apply AI and LLM-based tools to support drug discovery
-Integrate bioinformatics pipelines with wet-lab experimental data
-Build interactive visualization tools for mechanistic interpretation
+Automated high-throughput data analysis and statistical workflows (NumPy, SciPy, Pandas, Seaborn, Matplotlib)
+Protein structure prediction and modeling (AlphaFold2, OpenFold, iTASSER)
+Protein-protein and protein-ligand docking pipelines (HADDOCK, AutoDock Vina, Gnina)
+Cheminformatics workflows (RDKit, SMILES, PDBQT)
+GPU-accelerated computing and WSL/Linux environments
+Database management (SQLite)
+LLM-assisted scientific workflows and coding (Claude, ChatGPT, Gemini)
 
-### 🎨 Color Shade Analysis of Collectibles
-I'm also building Python-based tools to:
-Digitize and classify collectible artifacts like stamps and medals
-Perform calibrated color extraction and shade comparison
-Develop algorithms for color-based authentication and cataloging
-Combine image processing with historical metadata analysis for research and digital archiving
+## 🧬 De Novo Antibody Design
 
-## 🛠️ Tools I'm Exploring
-Python • OpenCV • RDKit • Rosetta • HADDOCK • PyMOL scripting • Conda/WSL environments • LLMs for research acceleration
-Color analysis tools: Pillow • scikit-image • LAB/XYZ color conversion • NumPy-based shade analysis • Visualization pipelines
+I am building an open-source computational pipeline for de novo antibody design against neglected tropical disease targets, running entirely on personal hardware.
 
-## 🌱 Always learning more about:
-Antibody design • Structural bioinformatics • Scientific visualization • AI for life sciences
-Color science for collectibles • Algorithmic classification • Historical research through digital imaging
+Current project: Basement Antibody Works designs antibodies against T. cruzi trans-sialidase, the primary virulence enzyme of Chagas disease, using a multi-fidelity Bayesian co-optimisation approach that simultaneously explores epitope and antibody geometry.
 
+Multi-structure SASA analysis across all available PDB crystal structures to identify conformationally robust surface-exposed epitopes (BioPython, UniProt REST API, PairwiseAligner)
+Bayesian optimisation loop with Gaussian process surrogate and Expected Improvement acquisition function for hotspot combination search (BoTorch, Ax)
+De novo antibody backbone design and CDR sequence optimisation (RFantibody, ProteinMPNN)
+Structure prediction and interface scoring (Boltz-2)
+All code and progress published openly: github.com/sardism/sialidaseantibodies
 
-<!---
-sardism/sardism is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## 🔬 Basement Drug Discovery
+
+One scientist. One laptop. A consumer GPU. Can a single person build a drug discovery pipeline using only open-source tools and free databases and find something real?
+
+Basement Drug Discovery screens all FDA-approved drugs against validated protein targets in fungal pathogens responsible for killing immunocompromised patients worldwide. Every compound in the library has already cleared human safety trials. If something works computationally the path to patients is shorter than starting from scratch.
+
+Current targets: CYP51 from Candida albicans and Aspergillus fumigatus with human CYP51 as a selectivity counter-screen.
+
+Top hit: Atogepant, an FDA-approved migraine drug, scores stronger than every known antifungal against both fungal targets.
+
+This work was submitted in response to FDA Docket FDA-2026-N-4492, Drug Repurposing for Unmet Medical Needs. All notebooks, results, and decisions are documented in real time on Substack. Anyone can reproduce this on their own laptop.
+
+Follow along: basementdrugdiscovery.substack.com
+
+## 🎨 Color Analysis & Digital Archiving
+
+I build image analysis tools for calibrated color extraction, shade classification, and algorithmic cataloging of historical artifacts, combining scientific imaging methodology with cultural preservation.
+
+Calibrated color extraction and shade comparison (LAB/XYZ color spaces)
+Image segmentation and classification pipelines (OpenCV, Pillow, scikit-image)
+Metadata integration for digital archiving and research
+
+## 🛠️ Tools & Environments
+
+Python • Jupyter • NumPy • SciPy • Pandas • Matplotlib • Seaborn • OpenCV • RDKit • PyMOL • HADDOCK • AutoDock Vina • Gnina • AlphaFold2 • OpenFold • iTASSER • RFantibody • ProteinMPNN • Boltz-2 • BoTorch • SQLite • Conda • WSL/Linux • GPU computing • LLMs
+
+## 🌱 Currently exploring
+
+De novo antibody design • Bayesian optimisation for protein engineering • Multi-fidelity computational pipelines • Structural bioinformatics • AI for life sciences • Scientific data visualization
+
+<!--- sardism/sardism is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile. You can click the Preview link to take a look at your changes. --->
